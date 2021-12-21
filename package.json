@@ -1,12 +1,12 @@
 {
-  "name": "basvuru-altyapisi-v13",
+  "name": "PavroTR",
   "version": "3.0.0",
-  "description": "Umut Bayraktar Discord.js v13 Uyumlu Başvuru Botu Altyapısı!",
+  "description": "PavroTR",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "Umut Bayraktar",
+  "author": "Muzaffer_Dnk",
   "dependencies": {
     "discord.js": "^13.1.0",
     "fs": "^0.0.2",
