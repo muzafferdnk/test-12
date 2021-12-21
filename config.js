@@ -24,7 +24,7 @@ const config = {
     description: "EMS Başvurusu Yapa Bilmek İçin Lütfen Aşşağıdaki Butona Basınız!" //Başvuru Mesajı Açıklama Kısmında Yazmasını İstediğiniz Şey
   },
 
-  sorular: ["**Oyun İçi Adınız Örnek**  : Muzaffer_Dnk", "** Yaşınız Kaçtır**", "** Doktor Rolünde Kaç Saat Aktif Kala Bilirsin**"] //Sorulacak Sorular
+  sorular: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12",] //Sorulacak Sorular
 };
 
 module.exports = config;
