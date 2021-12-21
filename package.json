@@ -1,28 +1,20 @@
 {
-  "name": "hello-node",
-  "version": "0.0.1",
-  "description": "A simple Node app built on fastify, instantly up and running.",
-  "main": "server.js",
+  "name": "basvuru-altyapisi-v13",
+  "version": "3.0.0",
+  "description": "Umut Bayraktar Discord.js v13 Uyumlu Başvuru Botu Altyapısı!",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
+  "author": "Umut Bayraktar",
   "dependencies": {
-    "fastify": "^3.25.0",
-    "fastify-formbody": "^5.2.0",
-    "fastify-static": "^4.5.0",
-    "handlebars": "^4.7.7",
-    "point-of-view": "^4.16.0"
+    "discord.js": "^13.1.0",
+    "fs": "^0.0.2",
+    "express": "^4.17.2",
+    "orio.db": "^3.0.2",
+    "pretty-ms": "^7.0.1"
   },
   "engines": {
-    "node": "12.x"
-  },
-  "repository": {
-    "url": "https://glitch.com/edit/#!/glitch-hello-node"
-  },
-  "license": "MIT",
-  "keywords": [
-    "node",
-    "glitch",
-    "express"
-  ]
+    "node": "16.x"
+  }
 }
