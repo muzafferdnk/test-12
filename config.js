@@ -2,8 +2,8 @@ const config = {
   TOKEN: "", //Glitchde Kullanacak iseniz .env Dosyasına Tokeni Yazın!
 
   prefix: "!",
-  guild: "919881098341810227", //Sunucu ID Yazın
-  channel: "922950932977823784", //Başvuru Yap Mesajının Atılacağı Kanal ID Yazın
+  guild: "919636953664724993", //Sunucu ID Yazın
+  channel: "919918643293323295", //Başvuru Yap Mesajının Atılacağı Kanal ID Yazın
 
   log: {
     staff: "922951340446064681", //Başvuru Onaylayıp-Reddedecek Yetkili Rol ID Yazın!
