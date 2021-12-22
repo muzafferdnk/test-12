@@ -3,16 +3,16 @@ const config = {
 
   prefix: "!",
   guild: "919636953664724993", //Sunucu ID Yazın
-  channel: "919918643293323295", //Başvuru Yap Mesajının Atılacağı Kanal ID Yazın
+  channel: "923286168475414579", //Başvuru Yap Mesajının Atılacağı Kanal ID Yazın
 
   log: {
-    staff: "922951340446064681", //Başvuru Onaylayıp-Reddedecek Yetkili Rol ID Yazın!
-    channel: "922950959288688673" //Başvuruların Loglanacağı Kanal ID Yazın
+    staff: "919661955130740766", //Başvuru Onaylayıp-Reddedecek Yetkili Rol ID Yazın!
+    channel: "919962437560713287" //Başvuruların Loglanacağı Kanal ID Yazın
   },
 
   sonuc: {
-    staffRole: ["922951340446064681"], //Sunucunuzdaki Başlangıç Yetkili Rolü veya Rolleri, Birden Fazla Rol Eklemek İçin ["rol id 1", "rol id2"] Başvuru Onaylanınca Buraya Yazılan Rol veya Roller Kullanıcıya Verilecek
-    sRole: "919881167447130115", //Verilecek En Düşük Yetkili Rol ID Yazın
+    staffRole: ["919636953664724997"], //Sunucunuzdaki Başlangıç Yetkili Rolü veya Rolleri, Birden Fazla Rol Eklemek İçin ["rol id 1", "rol id2"] Başvuru Onaylanınca Buraya Yazılan Rol veya Roller Kullanıcıya Verilecek
+    sRole: "919660230701371472", //Verilecek En Düşük Yetkili Rol ID Yazın
     successMessage: "EMS Başarılı Şekilde Alındınız Lütfen Bekleme Odasına Geciniz!", //Başvuru Onaylanınca Kullanıcıya Atılacak Mesajı Yazın
     deleteMessage: "Üzgünüm EMS Başvurun Reddedildi!", //Başvuru Reddedilince Kullanıcıya Atılacak Mesajı Yazın
     timeout: 20000 //Başvurusu Reddedilen Birisi Nekadar Süre Sonra Başvuru Yapa Bilsin? 1000=1 Saniye (Milisaniye Türünden Yazın)
@@ -24,7 +24,7 @@ const config = {
     description: "EMS Başvurusu Yapa Bilmek İçin Lütfen Aşşağıdaki Butona Basınız!" //Başvuru Mesajı Açıklama Kısmında Yazmasını İstediğiniz Şey
   },
 
-  sorular: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12",] //Sorulacak Sorular
+  sorular: ["Evlisiniz ve bir çocuğunuz var. Çocuğunuzun bulunduğu okulda bi grup terörist baskın yapıyor ve sizin çocuğunuzun bulunduğu sınıfı rehin alıyorlar. Polis müdahale ediyor ve bu teröristler yakalanıyor fakat 1 tanesi ağır yaralı hastane acilinde sizin önünüze getiriliyor,nasıl yaklaşırsınız.", " Akşam mesai bitimi şehirde dolaşırken yerde bir yaralı görüyorsunuz. Bu kişi bıçaklanmış yada vurulmuş olabilir durumuna göre nasıl yaklaşırsınız.", "Şehir içinde ambulans ile bi çağrıya giderken ortalama hız sınırınız kaç olmalıdı./Şehir dışında otobanda yada köy yollarında kaç olmalıdır.", "Aldığınız bir çağrıya gittiğiniz de bir çatışma silah sesleri kavga vs varsa nabarsınız?", "Hastane içinde veya dışında sizden birisi bi dostunuz yada tanıdığınız kişi sizden defibrilatör veya ilaç kutusu istediği zaman nasıl cevap verirsiniz?", "İşe başladığınız günden itibaren 2 hafta içinde çıkmak işi bırakmak isterseniz 100.000$ tazminatı ödemeyi kabul ediyor musunuz?", "Oyun İçi Adınız", "Yaşınız", "EMS Kaç Saat Aktif Kalabilirsiniz",] //Sorulacak Sorular
 };
 
 module.exports = config;
