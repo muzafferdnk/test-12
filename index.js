@@ -60,7 +60,7 @@ setInterval(() => {
 
 client.on("ready", async () => {
 console.log(`${client.user.tag} İsmi İle Bot Aktif!`)
-client.user.setActivity(`Kodlama Asamasinda`)
+client.user.setActivity(`Doktorluk`)
 const guild1 = client.guilds.cache.get(config.guild)
 if(guild1){
 if(guild1.channels.cache.find(a => a.name === "BAŞVURULAR")){
