@@ -218,7 +218,7 @@ new MessageButton()
 .setCustomId("reddet"))
 
 const embed = new MessageEmbed()
-.setTitle("Yeni Başvuru Geldi")
+.setTitle("Yeni Başvuru Geldi ")
 .setColor("BLUE")
 .setDescription("Başvuran: <@"+user.id+">\n\n"+cevaplar.map(cs => cs).join("\n\n"))
 .setTimestamp()

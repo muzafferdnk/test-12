@@ -13,8 +13,8 @@ const config = {
   sonuc: {
     staffRole: ["919636953664724998", "919660230701371472"], //Sunucunuzdaki Başlangıç Yetkili Rolü veya Rolleri, Birden Fazla Rol Eklemek İçin ["rol id 1", "rol id2"] Başvuru Onaylanınca Buraya Yazılan Rol veya Roller Kullanıcıya Verilecek
     sRole: "919636953664724998", //Verilecek En Düşük Yetkili Rol ID Yazın
-    successMessage: "EMS Başarılı Şekilde Alındınız Lütfen Bekleme Odasına Geciniz!", //Başvuru Onaylanınca Kullanıcıya Atılacak Mesajı Yazın
-    deleteMessage: "Üzgünüm EMS Başvurun Reddedildi!", //Başvuru Reddedilince Kullanıcıya Atılacak Mesajı Yazın
+    successMessage: "🏥 EMS Başarılı Şekilde Alındınız  ✅  Lütfen Bekleme Odasına Geciniz! ", //Başvuru Onaylanınca Kullanıcıya Atılacak Mesajı Yazın
+    deleteMessage: "❌ Üzgünüm EMS Başvurun Reddedildi! ❌", //Başvuru Reddedilince Kullanıcıya Atılacak Mesajı Yazın
     timeout: 86400000 //Başvurusu Reddedilen Birisi Nekadar Süre Sonra Başvuru Yapa Bilsin? 1000=1 Saniye (Milisaniye Türünden Yazın)
   },
 
